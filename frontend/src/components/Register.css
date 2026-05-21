@@ -1,0 +1,76 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 100px);
+}
+
+.login-card {
+  background: rgba(255, 255, 255, 0.45);
+  backdrop-filter: blur(25px);
+  -webkit-backdrop-filter: blur(25px);
+  padding: 45px;
+  border-radius: 40px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.03), inset 0 0 0 1px rgba(255, 255, 255, 0.6);
+  width: 100%;
+  max-width: 420px;
+}
+
+.login-card h2 {
+  text-align: center;
+  background: linear-gradient(135deg, #6E7F65 0%, #9CAF88 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  margin-bottom: 10px;
+  font-size: 32px;
+  font-weight: 800;
+  letter-spacing: -0.7px;
+}
+
+.subtitle {
+  text-align: center;
+  color: #FFFFFF;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.1);
+  margin-bottom: 35px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-links {
+  margin-top: 25px;
+  text-align: center;
+  font-size: 14px;
+  color: #1C1C1E;
+  font-weight: 500;
+}
+
+.auth-links a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 700;
+  margin-left: 6px;
+}
+
+.auth-links a:hover {
+  color: #4A5545;
+  text-decoration: underline;
+}
+
+.register-card button[type="submit"] {
+  background: transparent;
+  border: 2px solid #FFFFFF;
+  color: #FFFFFF;
+  font-weight: 700;
+  transition: all 0.3s ease;
+}
+
+.register-card button[type="submit"]:hover {
+  background: rgba(255, 255, 255, 0.15);
+  transform: translateY(-2px);
+}

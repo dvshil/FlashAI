@@ -1,0 +1,192 @@
+.flashcard-set {
+  padding: 20px;
+}
+
+.set-header {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(25px);
+  -webkit-backdrop-filter: blur(25px);
+  border-radius: 36px;
+  padding: 35px;
+  margin-bottom: 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+.set-header h1 {
+  color: #2D3620;
+  margin-bottom: 8px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.set-description {
+  color: #5A6B3A;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.set-actions-header {
+  display: flex;
+  gap: 12px;
+}
+
+.study-btn, .test-btn, .delete-set-btn {
+  padding: 12px 24px;
+  width: auto;
+  border-radius: 22px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.study-btn, .test-btn {
+  background: linear-gradient(135deg, #9CAF88 0%, #6E7F65 100%);
+  color: white;
+}
+
+.delete-set-btn {
+  background: rgba(211, 47, 47, 0.1);
+  color: #C62828;
+  box-shadow: none;
+}
+
+.delete-set-btn:hover {
+  background: #D32F2F;
+  color: white;
+}
+
+.cards-section {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(25px);
+  border-radius: 36px;
+  padding: 35px;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+.cards-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.cards-header h2 {
+  color: #2D3620;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.add-card-btn {
+  width: auto;
+  padding: 12px 24px;
+  background: linear-gradient(135deg, #9CAF88 0%, #6E7F65 100%);
+  color: white;
+  border-radius: 22px;
+  font-weight: 600;
+}
+
+.add-card-form, .edit-card-form {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 28px;
+  padding: 30px;
+  margin-bottom: 30px;
+  border: 1px solid rgba(156, 175, 136, 0.3);
+}
+
+.add-card-form h3 {
+  margin-bottom: 20px;
+  color: #2D3620;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.form-buttons {
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.save-card-btn {
+  background: linear-gradient(135deg, #9CAF88 0%, #6E7F65 100%);
+  flex: 1;
+}
+
+.cancel-card-btn {
+  background: rgba(0, 0, 0, 0.08);
+  color: #4A5A2E;
+  box-shadow: none;
+  flex: 1;
+}
+
+.cards-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card-item {
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 26px;
+  padding: 24px;
+  border: 1px solid rgba(156, 175, 136, 0.3);
+  transition: all 0.2s;
+}
+
+.card-item:hover {
+  transform: translateY(-3px);
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.05);
+}
+
+.card-number {
+  color: #9CAF88;
+  font-weight: 700;
+  margin-bottom: 12px;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.card-question, .card-answer {
+  margin-bottom: 14px;
+  line-height: 1.6;
+  font-size: 16px;
+  color: #2D3620;
+}
+
+.card-question strong, .card-answer strong {
+  color: #6E7F65;
+  margin-right: 10px;
+  font-weight: 700;
+}
+
+.card-buttons {
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.edit-btn {
+  background: rgba(156, 175, 136, 0.15);
+  color: #5B6A53;
+  width: auto;
+  padding: 8px 20px;
+  border-radius: 16px;
+  font-size: 13px;
+  box-shadow: none;
+}
+
+.delete-btn {
+  background: rgba(211, 47, 47, 0.08);
+  color: #C62828;
+  width: auto;
+  padding: 8px 20px;
+  border-radius: 16px;
+  font-size: 13px;
+  box-shadow: none;
+}
